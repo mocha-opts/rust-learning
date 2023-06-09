@@ -1,3 +1,7 @@
+struct Struct {
+    g: i32
+}
+
 fn main() {
     //可变性
     let mut x = 5;
@@ -24,7 +28,4 @@ fn main() {
     assert_eq!([1, 2, 1, 4, 5], [c, d, e, f, g]);
 
 
-}
-struct Struct {
-    g: i32
 }
